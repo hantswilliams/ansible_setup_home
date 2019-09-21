@@ -1,8 +1,9 @@
 # Ansible Setup - Home MacOSX Environment
 
 
-## Step 1 - Install Ansible 
-
+## Step 1 - Install Ansible and BOTO3 
+- follow cook cutter example on ansible website 
+- if will be creating, destorying, and stopping ec2 instaces, also be sure to install `boto3` - reference: https://docs.ansible.com/ansible/latest/modules/ec2_module.html
 
 ## Step 2 - Create etc/ansible folder 
 `mkdir /etc/ansible`
