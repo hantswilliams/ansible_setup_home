@@ -4,7 +4,8 @@
 ## Step 1 - Install Ansible and BOTO3 
 - follow cook cutter example on ansible website 
 - if will be creating, destorying, and stopping ec2 instaces, also be sure to install `boto` AND `boto3` - reference: https://docs.ansible.com/ansible/latest/modules/ec2_module.html
-- go into ~/.aws/credentials and make sure the key and secret are up to date
+- go into ~/.aws/credentials and make sure the key and secret are up to date (believe boto3 looks here)
+- also be sure to look at ~/.boto - there are sometimes credentials in there to (believe boto looks here)
 
 ## Step 2 - Create etc/ansible folder 
 `mkdir /etc/ansible`
